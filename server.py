@@ -1,6 +1,5 @@
 import socket
 import sys
-import os
 
 import tornado.gen
 import tornado.ioloop

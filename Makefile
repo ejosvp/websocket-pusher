@@ -1,4 +1,5 @@
 build:
+	cp $(DELI_SSL_CERTS)/server.* .
 	docker build --force-rm -t deli-ws-server .
 
 bash:
