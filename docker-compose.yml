@@ -1,0 +1,10 @@
+version: '2'
+services:
+  ws-server:
+    image: deli-ws-server
+    external_links:
+      - wordpress_wordpress_1:wordpress
+    ports:
+      - "8084:1234"
+    restart: always
+
